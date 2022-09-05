@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
-body {
-    font-family: 'Oswald', sans-serif !important;
-}
-
 header {
     width: 100%;
-    height: 750px;
+    height: 800px;
     color: #ffffff;
 }
 
@@ -20,7 +14,8 @@ header {
 
 .first-block h1 {
     font-weight: 300;
-    font-size: 42px;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .first-block h2 {
@@ -29,16 +24,12 @@ header {
 }
 
 .first-block h1 p span {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 h1 p:last-child {
-    font-size: 28px;
+    font-size: 24px;
 }
-
-/* .first-block h1 p span{
-    font-weight: 700;
-} */
 
 .last-block {
     background: rgb(93,253,203);
@@ -46,11 +37,14 @@ h1 p:last-child {
     height: 100%;
 }
 
-img {
+.photo {
     position: absolute;
-    width: 400px;
     left: calc(66.6% - 200px);
-    top: calc(375px - 310px);
+    top: calc(400px - 310px);
+}
+
+.photo-curriculum {
+    width: 400px;
     z-index: 1;
 }
 
@@ -61,6 +55,41 @@ img {
     border: 2px solid #ffffff;
     position: absolute;
     left: calc(66.6% - 170px);
-    top: calc(375px - 280px);
+    top: calc(375px - 255px);
     z-index: 0;
+}
+
+.memphis {
+    position: absolute;
+}
+
+.memphis-wave {
+    width: 80px;
+    left: -100px;
+    top: -50px;
+}
+.memphis-wave.x2 {
+    width: 80px;
+    top: 680px;
+    left: calc(50% - 40px);
+}
+
+.memphis-triangle {
+    width: 60px;
+    bottom: -50px;
+    right: -100px;
+}
+
+.memphis-x {
+    width: 30px;
+    top: 18px;
+    right: -80px;
+}
+
+.memphis-x.x2 {
+    right: -120px;
+}
+
+.memphis-x.x3 {
+    right: -160px;
 }
