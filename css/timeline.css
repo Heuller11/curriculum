@@ -36,14 +36,14 @@ h4 {
 
 .timeline-content {
     display: flex;
-    width: 60%;
-    justify-content: center;
+    width: 80%;
+    justify-content: end;
     position: relative;
 }
 
 .description {
-    padding-left: 50px;
-    width: 60%;
+    width: 38%;
+    margin-left: 50px;
 }
 
 .description span {
@@ -56,6 +56,14 @@ h4 {
     color: white;
     font-size: 20px;
     padding-top: 20px;
+    text-align: justify;
+}
+
+.description-left.comp {
+    width: 38%;
+    position: absolute;
+    left: 15px;
+    top: 300px;
 }
 
 .year {
@@ -98,6 +106,15 @@ h4 {
     transform: rotate(180deg);
     left: -50px;
     top: 400px;
+}
+
+.line {
+    position: absolute;
+    left: -400px;
+    top: 280px;
+    width: 400px;
+    height: 3px;
+    background-color: #ffffff;
 }
 
 .month .august {
