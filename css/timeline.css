@@ -1,0 +1,48 @@
+#timeline {
+    min-height: 600px;
+    background-color: #0B0014;
+    padding-inline: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    color: #ffffff !important;
+}
+
+.block {
+    width: 200px;
+    min-height: 400px;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.year {
+    font-size: 12rem;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    padding: 2px;
+
+}
+
+.second-part-year {
+    position: absolute;
+    top: 12rem;
+    left: 2px;
+}
+
+.flag {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    right: -50px;
+
+    border-left: 25px solid blueviolet;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+}

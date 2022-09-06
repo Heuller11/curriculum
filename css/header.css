@@ -40,23 +40,23 @@ h2 p:last-child {
 
 .photo {
     position: absolute;
-    left: calc(66.6% - 200px);
-    top: 90px;
+    left: calc(66.6% - 170px);
+    top: 136.5px;
 }
 
 .photo-curriculum {
-    width: 400px;
+    width: 340px;
     z-index: 1;
 }
 
 .memphis-border-photo {
-    width: 400px;
-    height: 620px;
+    width: 340px;
+    height: 527px;
     background-color: transparent;
     border: 2px solid #ffffff;
     position: absolute;
-    left: calc(66.6% - 170px);
-    top: calc(375px - 255px);
+    left: calc(66.6% - 150px);
+    top: 160px;
     z-index: 0;
 }
 
@@ -65,24 +65,24 @@ h2 p:last-child {
 }
 
 .memphis-wave {
-    width: 80px;
+    width: 60px;
     left: -100px;
     top: -50px;
 }
 .memphis-wave.x2 {
-    width: 80px;
-    top: 680px;
-    left: calc(50% - 40px);
+    width: 60px;
+    top: 600px;
+    left: calc(50% - 30px);
 }
 
 .memphis-triangle {
-    width: 60px;
+    width: 50px;
     bottom: -50px;
     right: -100px;
 }
 
 .memphis-x {
-    width: 30px;
+    width: 20px;
     top: 18px;
     right: -80px;
 }
