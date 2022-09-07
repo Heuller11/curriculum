@@ -29,7 +29,7 @@ h4 {
 
 .block {
     width: 200px;
-    min-height: 800px;
+    min-height: 2000px;
     background-color: #ffffff;
     position: relative;
 }
@@ -59,11 +59,30 @@ h4 {
     text-align: justify;
 }
 
-.description-left.comp {
+.description-left {
     width: 38%;
     position: absolute;
     left: 15px;
-    top: 300px;
+}
+
+.comp {
+    top: 350px;
+}
+
+.technolog {
+    margin-top: 390px;
+}
+
+.tcc {
+    top: 1030px;
+}
+
+.two-mind {
+    margin-top: 460px;
+}
+
+.mestrado {
+    margin-top: 30px;
 }
 
 .year {
@@ -72,7 +91,6 @@ h4 {
     color: #02ca8b;
     position: relative;
     padding: 2px;
-
 }
 
 .second-part-year {
@@ -82,12 +100,33 @@ h4 {
 }
 
 .year-2017 {
-    position: absolute;
-    right: 2px;
-    top: 300px;
-    color: #F9C80E
-    
+    text-align: right;
+    color: #F9C80E;
+    margin-top: 110px;  
 }
+
+.year-2018 {
+    color: #0c3683;
+    margin-top: 110px;
+}
+
+.year-2020 {
+    text-align: right;
+    color: #0c3683;
+    margin-top: 220px;
+}
+
+.year-2021 {
+    margin-top: 110px;
+    color: #02ca8b;
+}
+
+.year-2022 {
+    text-align: right;
+    margin-top: 110px;
+    color: #F9C80E;
+}
+
 
 .flag {
     position: absolute;
@@ -108,16 +147,58 @@ h4 {
     top: 400px;
 }
 
+.flag.x2 {
+    right: -50px;
+    top: 690px;
+}
+
+.flag.x3 {
+    transform: rotate(180deg);
+    left: -50px;
+    top: 1090px;
+}
+
+.flag.x4 {
+    right: -50px;
+    top: 1375px;
+}
+
+.flag.x5 {
+    transform: rotate(180deg);
+    left: -50px;
+    top: 1675px;
+}
+
 .line {
     position: absolute;
     left: -400px;
-    top: 280px;
+    top: 320px;
     width: 400px;
     height: 3px;
     background-color: #ffffff;
 }
 
+.line.x1 {
+    left: 200px;
+    top: 600px;
+}
+
+.line.x2 {
+    top: 1000px;
+    left: -400px;
+}
+
+.line.x3 {
+    top: 1300px;
+    left: 200px;
+}
+
+.line.x4 {
+    top: 1580px;
+    left: -400px;
+}
+
 .month .august {
-    top: 400px;
+    top: 450px;
     right: -285px;
 }
