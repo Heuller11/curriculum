@@ -1,7 +1,7 @@
-#about {
-    width: 100%;
+#projects {
     min-height: 600px;
-    background-color: #F9C80E;
+    background-color: #02ca8b;
+    width: 100%;
     padding-inline: 150px;
     display: flex;
     flex-direction: column;
@@ -9,8 +9,3 @@
     align-items: center;
 }
 
-.text-about {
-    width: 60%;
-    text-align: justify;
-    font-size: 26px;
-}

@@ -1,0 +1,48 @@
+@media (max-width: 992px) { 
+
+    nav {
+        display: none !important;
+    }
+
+}
+
+
+@media (max-width: 1200px) { 
+
+    header {
+        height: 1200px !important;
+    }
+
+    .first-block {
+        padding-block: 100px !important;
+        height: 400px !important;
+    }
+
+    .last-block {
+        height: 800px !important;
+    }
+
+    .photo {
+        top: 567.5px;
+        left: calc(50% - 150px);
+    }
+
+    .photo-curriculum {
+        width: 300px;
+    }
+
+    .memphis-border-photo {
+        width: 300px;
+        height: 465px;
+        top: 600px;
+        left: calc(50% - 130px);
+    }
+
+    .memphis-wave.x2 {
+        top: 510px;
+
+    }
+    
+
+
+}
