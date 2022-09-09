@@ -26,6 +26,9 @@ h4 {
     font-weight: 600;
     text-transform: uppercase;
     display: inline-block;
+}
+
+.month :nth-child(1) {
     margin-left: -100px;
     margin-top: 110px;
 }
