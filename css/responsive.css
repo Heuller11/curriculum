@@ -1,56 +1,21 @@
-@media (max-width: 1200px) { 
-
-    header {
-        height: 1200px !important;
-    }
-
-    .first-block {
-        padding-block: 50px !important;
-        height: 400px !important;
-    }
-
-    .last-block {
-        height: 800px !important;
-    }
-
-    .photo {
-        top: 567.5px;
-        left: calc(50% - 150px);
-    }
-
-    .photo-curriculum {
-        width: 300px;
-    }
-
-    .memphis-border-photo {
-        width: 300px;
-        height: 465px;
-        top: 600px;
-        left: calc(50% - 130px);
-    }
-
-    .memphis-wave.x2 {
-        top: 510px;
-    }
-
-}
-
-
-@media (min-width: 992px) { 
-
+@media (min-width: 1200px) { 
     nav {
         justify-content: space-between;
         align-items: center;
     }
-
 }
 
 
-@media (max-width: 992px) { 
+@media (max-width: 1200px) { 
 
     nav {
         border-bottom: 0 !important;
         /* background-color: #F9C80E; */
+    }
+
+    h1 {
+        margin-left: 0 !important;
+        text-align: center;
     }
 
     nav .bi-list {
@@ -72,7 +37,7 @@
         display: none;
         position: fixed;
         left: 0;
-        width: 300px;
+        width: 75%;
         height: 100vh;
         padding: 10px;
         background-color: #155ce0;
@@ -105,6 +70,39 @@
         height: 100%;
         backdrop-filter: blur(4px);
         z-index: 99;
+    }
+
+    header {
+        height: 1200px !important;
+    }
+
+    .first-block {
+        padding-block: 50px !important;
+        height: 400px !important;
+    }
+
+    .last-block {
+        height: 800px !important;
+    }
+
+    .photo {
+        top: 567.5px;
+        left: calc(50% - 150px);
+    }
+
+    .photo-curriculum {
+        width: 300px;
+    }
+
+    .memphis-border-photo {
+        width: 300px;
+        height: 465px;
+        top: 600px;
+        left: calc(50% - 130px);
+    }
+
+    .memphis-wave.x2 {
+        top: 510px;
     }
 
 }
@@ -200,6 +198,7 @@
         right: -60px;
     }
 
-
-
+    #contact {
+        display: none;
+    }
 }

@@ -3,14 +3,40 @@
     min-height: 600px;
     background-color: #F9C80E;
     padding-inline: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+
+#about h4 {
+    padding-top: 50px !important;
 }
 
 .text-about {
-    width: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-about p {
+    width: 70%;
     text-align: justify;
     font-size: 26px;
+}
+
+@media (max-width: 1600px) {
+    .text-about p {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+
+    #about {
+        padding-inline: 20px !important;
+    }
+
+    .text-about p {
+        width: 100%;
+    }
+
+
 }
