@@ -2,11 +2,13 @@ nav {
     height: 80px;
     background-color: #02ca8b;
     display: flex !important;
-    justify-content: space-between;
-    align-items: center;
     text-transform: uppercase;
-    padding: 10px;
     border-bottom: 5px solid white;
+    position: relative;
+}
+
+nav svg {
+    display: none;
 }
 
 h1 {
@@ -18,7 +20,7 @@ h1 {
     color: #ffffff !important;
 }
 
-ul {
+.menu ul {
     width: 760px;
     display: flex;
     justify-content: space-around;
@@ -36,4 +38,7 @@ a:hover {
     color: #ffffff !important;
     text-decoration: none !important;
 }
+
+
+
 
