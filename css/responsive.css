@@ -8,11 +8,6 @@
 
 @media (max-width: 1200px) { 
 
-    nav {
-        /* border-bottom: 0 !important; */
-        /* background-color: #F9C80E; */
-    }
-
     h1 {
         margin-left: 0 !important;
         text-align: center;
@@ -261,7 +256,90 @@
         left: -180px;
     }
     
+    .flag svg {
+        display: block;
+        margin-top: -18px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
 
+    .flag.x1 svg, .flag.x3 svg, .flag.x5 svg {
+        transform: rotate(180deg);
+    }
+
+    .dialog {
+        position: relative;
+        min-width: 1px;
+        height: 100%;
+    }
+
+    .box {
+        position: absolute;
+        background-color: var(--third-color);
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px black;
+        width: 75vw;
+        height: 400px;
+        z-index: 999;
+    }
+
+    .box svg {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+    }
+
+    .box.x0 {
+        display: none;
+        top: 125px;
+        right: -25px;
+    }
+
+    .box.x1 {
+        display: none;
+        top: 425px;
+        left: -25px;
+    }
+
+    .box.x2 {
+        display: none;
+        top: 725px;
+        right: -25px;
+    }
+
+    .box.x3 {
+        display: none;
+        top: 1275px;
+        left: -25px;
+    }
+
+    .box.x4 {
+        display: none;
+        top: 1550px;
+        right: -25px;
+    }
+
+    .box.x5 {
+        display: none;
+        top: 1850px;
+        left: -25px;
+    }
+
+    .title-box::after {
+        content: '';
+        border-top-left-radius: 40% 10%;
+        border-top-right-radius: 40% 10%;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        background-color: var(--secondary-color);
+        height: 80%;
+    
+    }
+
+    
     /* CONTACT */
 
     #contact {

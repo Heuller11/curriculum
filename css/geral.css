@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
+
+:root {
+    --primary-color: #0c3683;
+    --secondary-color: #02ca8b;
+    --third-color: #F9C80E;
+}
+
 body {
     font-family: 'Oswald', sans-serif !important;
 }
@@ -12,3 +19,4 @@ h4 {
     font-size: 48px !important;
     padding-bottom: 30px;
 }
+
