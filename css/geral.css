@@ -17,6 +17,7 @@ h4 {
     text-align: center;
     text-transform: uppercase;
     font-size: 48px !important;
-    padding-bottom: 30px;
+    padding-block: 50px !important;
+    color: #ffffff !important;
 }
 
