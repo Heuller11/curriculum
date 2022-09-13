@@ -66,6 +66,7 @@
     width: 80%;
     position: absolute;
     top: 170px;
+    left: 0;
 }
 
 .timeline-content div {
@@ -87,31 +88,39 @@
     text-align: justify;
 }
 
-.description-left p , .description-right p {
-    margin-top: 10px;
+.description-left {
+    position: absolute;
+    left: 0;
 }
 
-.description-left {
-    margin-top: 320px;
-    margin-left: 70px;
+.description-left p , .description-right p {
+    margin-top: 10px;
 }
 
 .description-right {
     position: absolute;
     right: 0;
-    margin-top: 5px;
+    top: 5px;
+}
+
+.internship-description {
+    top: 600px !important;
+}
+
+.comp {
+    top: 320px;
 }
 
 .tcc {
-    margin-top: 650px;
+    top: 1160px;
 }
 
 .front-end {
-    margin-top: 50px;
+    margin-top: 1435px;
 }
 
 .mestrado {
-    margin-top: 420px;
+    top: 1720px;
 }
 
 .year {
@@ -258,31 +267,59 @@
     left: -400px;
 }
 
-.start-study {
-    position: absolute;
-    width: 275px;
-    top: 0;
-    left: 375px;
+.wrap-timeline-imgs {
+    width: 100% !important;
+    position: relative;
 }
 
-.comp-study {
-    position: absolute;
-    width: 275px;
-    top: 300px;
-    right: 300px;
+.timeline-content p, .timeline-content span {
+    display: none;
 }
 
 .internship {
     position: absolute;
     width: 250px !important;
-    top: 620px;
-    left: 380px;
+    top: 580px;
+    left: 28%;
 }
 
 .internship tr td {
     padding-block: 20px;
 }
 
-.html-study, .css-study, .js-study, .jquery-study, .php-study, .bootstrap-study   {
+.html-study, .css-study, .js-study, .jquery-study, .php-study, .bootstrap-study, .tcc-study, .sql-study, .web-study   {
     width: 60px !important;
+}
+
+.start-study {
+    position: absolute;
+    width: 275px;
+    top: -25px;
+    left: 28%;
+}
+
+.comp-study {
+    position: absolute;
+    width: 275px;
+    top: 275px;
+    right: 1.5%;
+}
+
+.tcc-study {
+    position: absolute;
+    top: 1200px;
+    right: 20%;
+}
+
+.web-study {
+    position: absolute;
+    top: 1460px;
+    left: 44%;
+}
+
+.master-study {
+    position: absolute;
+    width: 275px;
+    top: 1675px;
+    right: 1.5%;
 }

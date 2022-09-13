@@ -15,12 +15,13 @@
     <link rel="stylesheet" href="css/footer.css">
 
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive_timeline.css">
+
     <!-- colocar data de fim da atividade ao final da descrição 
         ajustar contact pro responsive
         ajustar importants desnecessários
         tentar aumentar header azul sem quebrar (testar)
-    
-    
+        separar responsive css em arquivos
     -->
 
 
@@ -252,21 +253,33 @@
         </div>
         
         <div class="timeline-content">
-            <img class="start-study" src="imgs/start.png" alt="inicio dos estudos">
-            <img class="comp-study" src="imgs/comp.png" alt="inicio dos estudos">
-
-            <table class="internship">
-                <tr>
-                    <td><img class="html-study" src="imgs/html5-logo-8.png" alt="inicio dos estudos html"></td>
-                    <td><img class="css-study" src="imgs/css-3-logo.png" alt="inicio dos estudos css"></td>
-                    <td><img class="js-study" src="imgs/js-logo.png" alt="inicio dos estudos javascript"></td>
-                </tr>
-                <tr>
-                    <td><img class="jquery-study" src="imgs/jquery-logo.png" alt="inicio dos estudos jquery"></td>
-                    <td><img class="bootstrap-study" src="imgs/bootstrap-logo.png" alt="inicio dos estudos bootstrap"></td>
-                    <td><img class="php-study" src="imgs/php-logo.png" alt="inicio dos estudos php"></td>
-                </tr>
-            </table>
+            <div class="wrap-timeline-imgs">
+                <img class="start-study" src="imgs/start.png" alt="inicio dos estudos na faculdade">
+                <img class="comp-study" src="imgs/comp.png" alt="inicio dos estudos na comp">
+    
+                <table class="internship">
+                    <tr>
+                        <td><img class="html-study" src="imgs/html5-logo-8.png" alt="inicio dos estudos html"></td>
+                        <td><img class="css-study" src="imgs/css-3-logo.png" alt="inicio dos estudos css"></td>
+                        <td><img class="js-study" src="imgs/js-logo.png" alt="inicio dos estudos javascript"></td>
+                    </tr>
+                    <tr>
+                        <td><img class="jquery-study" src="imgs/jquery-logo.png" alt="inicio dos estudos jquery"></td>
+                        <td><img class="bootstrap-study" src="imgs/bootstrap-logo.png" alt="inicio dos estudos bootstrap"></td>
+                        <td><img class="php-study" src="imgs/php-logo.png" alt="inicio dos estudos php"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><img class="sql-study" src="imgs/database-logo.png" alt="inicio dos estudos sql"></td>
+                        <td></td>
+                    </tr>
+                </table>
+                
+                <img class="tcc-study" src="imgs/python-logo.png" alt="inicio dos estudos tcc">
+                <img class="web-study" src="imgs/laravel-logo.png" alt="inicio dos estudos desenvolvimento web">
+                <img class="master-study" src="imgs/master.png" alt="inicio dos estudos no mestrado">
+            </div>
+            
 
 
             <div class="description-right">
@@ -285,7 +298,7 @@
                     maxime voluptates? Magni et illo, vitae in qui unde officia veniam?
                 </p>
             </div>
-            <div class="description-right">
+            <div class="description-right internship-description">
                 <span>Iniciei estágio como desenvolvedor back-end</span>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
