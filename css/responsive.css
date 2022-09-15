@@ -100,28 +100,35 @@
         top: 510px;
     }
 
+    /* TIMELINE */
+
+    .timeline-content {
+        width: 960px !important;
+    }
+
+    .description .img-and-month {
+        width: 380px !important;
+    }
+
+    .activity {
+        width: 380px  !important;
+    }
+
+}
+
+@media (max-width: 992px) { 
+
+    .activity, .img-and-month {
+        display: none !important;
+    }
+
+    .timeline-content {
+        width: 100% !important;
+        padding-inline: 10px;
+    }
+
     .line {
-        width: 250px !important;
-    }
-
-    .line.x0 {
-        left: -250px;
-    }
-
-    .line.x1 {
-        left: 200px;
-    }
-
-    .line.x2 {
-        left: -250px;
-    }
-    
-    .line.x3 {
-        left: 200px;
-    }
-    
-    .line.x4 {
-        left: -250px;
+        display: none;
     }
 
 }
@@ -221,51 +228,7 @@
         right: -30px;
     }
 
-    /* TIMELINE */
-
-    /* #timeline {
-        padding-inline: 0;
-    }
-
-    .block {
-        width: 175px;
-        min-height: 2000px;
-    }
-
-    .line {
-        width: 180px !important;
-    }
-
-    .line.x0 {
-        left: -180px;
-    }
-
-    .line.x1 {
-        left: 175px;
-    }
-    
-    .line.x2 {
-        left: -180px;
-    }
-    
-    .line.x3 {
-        left: 175px;
-    }
-    
-    .line.x4 {
-        left: -180px;
-    }
-    
-    .flag svg {
-        display: block;
-        margin-top: -18px;
-        margin-left: 10px;
-        cursor: pointer;
-    }
-
-    .flag.x1 svg, .flag.x3 svg, .flag.x5 svg {
-        transform: rotate(180deg);
-    }
+    /*
 
     .dialog {
         position: relative;
@@ -349,64 +312,6 @@
 
 @media (max-width: 576px) {
 
-    /* .line {
-        width: 70px !important;
-    }
-
-    .line.x0 {
-        left: -70px;
-    }
-
-    .line.x1 {
-        left: 175px;
-    }
     
-    .line.x2 {
-        left: -70px;
-    }
-    
-    .line.x3 {
-        left: 175px;
-    }
-    
-    .line.x4 {
-        left: -70px;
-    }
-
-
-
-    .month span{
-        font-size: 16px !important;
-    }
-
-    .month :nth-child(1) {
-        margin-left: -50px !important;
-    }
-    
-    .month :nth-child(2) {
-        margin-left: 185px !important;
-        margin-top: 260px !important;
-    }
-    
-    .month :nth-child(3) {
-        margin-left: -80px !important;
-        margin-top: 260px !important;
-    }
-    
-    .month :nth-child(4) {
-        margin-left: 185px !important;
-        margin-top: 540px !important;
-    }
-    
-    .month :nth-child(5) {
-        margin-left: -80px !important;
-        margin-top: 260px !important;
-    }
-    
-    .month :nth-child(6) {
-        margin-left: 185px !important;
-        margin-top: 260px !important;
-    } */
-
 
  }
