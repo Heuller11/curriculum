@@ -12,6 +12,9 @@
 
 .timeline-content {
     position: absolute;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
 }
 
 .block {
@@ -21,11 +24,9 @@
     position: relative;
 }
 
-.description {
+.content-block {
     width: 200px;
     height: 320px;
-    background-color: red;
-    border-bottom: 1px solid white;
     position: relative;
 }
 
@@ -71,20 +72,44 @@
 }
 
 
-.description span {
+.content-block span {
     font-size: 80px;
     font-weight: 700;
 }
 
-.description span:first-child {
+.content-block span:first-child {
+    color: var(--secondary-color);
     display: block;
 }
 
 
-.description span:not(span:first-child)  {
+.content-block span:not(span:first-child)  {
+    color: var(--primary-color);
     display: block;
     margin-top: -30px;
-    color: #ffffff;
     margin-top: -20px;
     margin-left: 60px;
+}
+
+.description:nth-child(even) .content-block{
+    text-align: right;
+}
+
+.description:nth-child(even) .content-block span:not(span:first-child){
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.description {
+    width: 100%;
+    display: flex;
+}
+
+.activity {
+    width: 380px !important;
+    color: #ffffff;
+}
+
+.description img {
+    width: 380px !important;
 }
