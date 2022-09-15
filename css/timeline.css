@@ -5,54 +5,13 @@
     position: relative;
 }
 
-.wrap-timeline {
+.timeline-elements {
     display: flex;
     justify-content: center;
 }
 
-
-.month {
-    width: 100%;
+.timeline-content {
     position: absolute;
-    top: 0;
-}
-
-.month span{
-    color: white;
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-.month :nth-child(1) {
-    margin-left: -100px;
-    margin-top: 110px;
-}
-
-.month :nth-child(2) {
-    margin-left: 240px !important;
-    margin-top: 250px !important;
-}
-
-.month :nth-child(3) {
-    margin-left: -140px !important;
-    margin-top: 250px !important;
-}
-
-.month :nth-child(4) {
-    margin-left: 240px !important;
-    margin-top: 520px !important;
-}
-
-.month :nth-child(5) {
-    margin-left: -140px !important;
-    margin-top: 250px !important;
-}
-
-.month :nth-child(6) {
-    margin-left: 240px !important;
-    margin-top: 250px !important;
 }
 
 .block {
@@ -62,124 +21,31 @@
     position: relative;
 }
 
-.timeline-content {
-    width: 80%;
-    position: absolute;
-    top: 170px;
-    left: 0;
-}
-
-.timeline-content div {
-    width: 37%;
-    margin-bottom: 90px;
-}
-
-.timeline-content span {
-    font-size: 30px;
-    color: white;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.timeline-content {
-    color: white;
-    font-size: 20px;
-    padding-top: 20px;
-    text-align: justify;
-}
-
-.description-left {
-    position: absolute;
-    left: 0;
-}
-
-.description-left p , .description-right p {
-    margin-top: 10px;
-}
-
-.description-right {
-    position: absolute;
-    right: 0;
-    top: 5px;
-}
-
-.internship-description {
-    top: 600px !important;
-}
-
-.comp {
-    top: 320px;
-}
-
-.tcc {
-    top: 1160px;
-}
-
-.front-end {
-    margin-top: 1435px;
-}
-
-.mestrado {
-    top: 1720px;
-}
-
-.year {
-    font-size: 12rem;
-    font-weight: bold;
-    color: #02ca8b;
-    position: relative;
-    padding: 2px;
-}
-
-.second-part-year {
-    position: absolute;
-    top: 12rem;
-    left: 30px;
-}
-
-.year-2017 {
-    text-align: right;
-    color: #F9C80E;
-    margin-top: 110px;  
-}
-
-.year-2018 {
-    color: #0c3683;
-    margin-top: 110px;
-}
-
-.year-2020 {
-    text-align: right;
-    color: #0c3683;
-    margin-top: 380px;
-}
-
-.year-2021 {
-    margin-top: 110px;
-    color: #02ca8b;
-}
-
-.year-2022 {
-    text-align: right;
-    margin-top: 110px;
-    color: #F9C80E;
-}
-
-.accessories {
-    position: absolute;
-    width: 100%;
-    top: 0;
-}
-
-.wrap-accessories {
-    width: 100%;
-    height: 100%;
+.description {
+    width: 200px;
+    height: 320px;
+    background-color: red;
+    border-bottom: 1px solid white;
     position: relative;
 }
 
+.line {
+    width: 300px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.line-right {
+    left: 200px;
+}
+
+.line-left{
+    right: 200px;
+}
 
 .flag {
-    position: absolute;
     width: 50px;
     height: 50px;
     background-color: transparent;
@@ -187,139 +53,38 @@
     border-right: 25px solid transparent;
     border-bottom: 25px solid transparent;
     border-top: 25px solid transparent;
-}
-
-.flag.x0 {
-    right: -50px;
-    top: 100px;
-}
-
- .flag.x1 {
-    transform: rotate(180deg);
-    left: -50px;
-    top: 400px;
-}
-
-
-
-.flag.x2 {
-    right: -50px;
-    top: 700px;
-}
-
-
-.flag.x3 {
-    transform: rotate(180deg);
-    left: -50px;
-    top: 1250px;
-}
-
-
-.flag.x4 {
-    right: -50px;
-    top: 1525px;
-}
-
-
-.flag.x5 {
-    transform: rotate(180deg);
-    left: -50px;
-    top: 1825px;
-} 
-
-.flag svg {
-    display: none;
-}
-
-
-.line {
     position: absolute;
-    width: 400px;
-    height: 3px;
-    background-color: #ffffff;
+    top: calc(50% - 25px);
 }
 
-.line.x0 {
-    top: 320px;
-    left: -400px;
-    width: 400px;
-    height: 3px;
-    background-color: #ffffff;
-}
-
-.line.x1 {
-    top: 600px;
+.flag-right {
     left: 200px;
 }
 
-.line.x2 {
-    top: 1160px;
-    left: -400px;
+.flag-left {
+    right: 200px;
+    transform: rotate(180deg);
 }
 
-.line.x3 {
-    top: 1440px;
-    left: 200px;
+.wrap-year span {
+    font-size: 60px;
 }
 
-.line.x4 {
-    top: 1720px;
-    left: -400px;
+
+.description span {
+    font-size: 80px;
+    font-weight: 700;
 }
 
-.wrap-timeline-imgs {
-    width: 100% !important;
-    position: relative;
+.description span:first-child {
+    display: block;
 }
 
-.timeline-content p, .timeline-content span {
-    display: none;
-}
 
-.internship {
-    position: absolute;
-    width: 250px !important;
-    top: 580px;
-    left: 28%;
-}
-
-.internship tr td {
-    padding-block: 20px;
-}
-
-.html-study, .css-study, .js-study, .jquery-study, .php-study, .bootstrap-study, .tcc-study, .sql-study, .web-study   {
-    width: 60px !important;
-}
-
-.start-study {
-    position: absolute;
-    width: 275px;
-    top: -25px;
-    left: 28%;
-}
-
-.comp-study {
-    position: absolute;
-    width: 275px;
-    top: 275px;
-    right: 1.5%;
-}
-
-.tcc-study {
-    position: absolute;
-    top: 1200px;
-    right: 20%;
-}
-
-.web-study {
-    position: absolute;
-    top: 1460px;
-    left: 44%;
-}
-
-.master-study {
-    position: absolute;
-    width: 275px;
-    top: 1675px;
-    right: 1.5%;
+.description span:not(span:first-child)  {
+    display: block;
+    margin-top: -30px;
+    color: #ffffff;
+    margin-top: -20px;
+    margin-left: 60px;
 }

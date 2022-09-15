@@ -223,7 +223,7 @@
 
     /* TIMELINE */
 
-    #timeline {
+    /* #timeline {
         padding-inline: 0;
     }
 
@@ -337,7 +337,7 @@
         background-color: var(--secondary-color);
         height: 80%;
     
-    }
+    } */
 
     
     /* CONTACT */
@@ -349,7 +349,7 @@
 
 @media (max-width: 576px) {
 
-    .line {
+    /* .line {
         width: 70px !important;
     }
 
@@ -406,7 +406,7 @@
     .month :nth-child(6) {
         margin-left: 185px !important;
         margin-top: 260px !important;
-    }
+    } */
 
 
  }
