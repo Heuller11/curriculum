@@ -31,7 +31,7 @@
 }
 
 .line {
-    width: 300px;
+    width: 350px;
     height: 2px;
     background-color: white;
     position: absolute;
@@ -55,7 +55,7 @@
     border-bottom: 25px solid transparent;
     border-top: 25px solid transparent;
     position: absolute;
-    top: calc(50% - 25px);
+    top: calc(33% - 25px);
 }
 
 .flag-right {
@@ -80,6 +80,11 @@
 .content-block span:first-child {
     color: var(--secondary-color);
     display: block;
+    padding-left: 5px;
+}
+
+.description:nth-child(even) .content-block span:first-child {
+    padding-right: 5px;
 }
 
 
@@ -103,13 +108,84 @@
 .description {
     width: 100%;
     display: flex;
+    text-align: justify;
+}
+
+.description:nth-child(2n + 1){
+    flex-direction: row-reverse;
 }
 
 .activity {
     width: 380px !important;
     color: #ffffff;
+    padding-right: 30px;
+    padding-top: 26px;
 }
 
-.description img {
+.description:nth-child(2n + 1) .activity {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.img-and-month {
+    display: flex;
+}
+
+.description:nth-child(even) .img-and-month{
+    flex-direction: row-reverse;
+}
+
+
+.description .img-and-month {
     width: 380px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.description:nth-child(2n + 1) .img-and-month{
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.img-and-month img {
+    width: 250px;
+}
+
+.img-and-month table {
+    width: 100%;
+    height: 100%;
+}
+
+.img-and-month table img {
+    width: 60px;
+}
+
+.img-and-month span{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.description.d-20 {
+    margin-top: 80px;
+}
+
+.l-18 {
+    bottom: -80px;
+}
+
+.activity span {
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.activity p {
+    padding-top: 25px;
+    font-size: 18px;
 }
