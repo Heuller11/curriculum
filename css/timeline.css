@@ -113,6 +113,10 @@
     justify-content: center;
 }
 
+.description p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .description:nth-child(2n + 1){
     flex-direction: row-reverse;
 }
@@ -149,6 +153,10 @@
 
 .img-and-month img {
     width: 250px;
+}
+
+.logo-laravel, .logo-python {
+    width: 150px !important;
 }
 
 .img-and-month table {
