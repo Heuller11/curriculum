@@ -5,7 +5,12 @@ $('nav .bi-list').click(function(){
 })
 
 $('nav .closeMenu, .menu li').click(function(){
-    $('.menu').css('display', 'none');
+
+    if($(window).width() < 992){
+        $('.menu').css('display', 'none');
+    }
+
+    
     $('.overlay').css('display', 'none');
     $('.closeMenu').css('display', 'none')
 })
@@ -16,7 +21,16 @@ $('.info-icon').click(function(){
     var description = $(this).parents('.description');
 
     var index = $('.timeline-content .description').index(description);
-    var calculateTop = index < 2 ? (105 + index * 320).toString() + 'px' : (105 + 80 + index * 320).toString() + 'px';
+
+    if(index < 2) {
+        calculateTop = (105 + index * 320).toString() + 'px'
+    }
+    else if(index > 2) {
+        calculateTop = (105 + 80 + index * 320).toString() + 'px';
+    }
+    else{ //=2
+        calculateTop = (125 + index * 320).toString() + 'px'
+    }
 
     
     var activity = $(description).find('.activity');
