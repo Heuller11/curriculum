@@ -149,10 +149,14 @@
         border-bottom: 2px solid var(--primary-color);
     }
 
+    .info-icon {
+        display: block;
+    }
+
     .activity-title {
         position: absolute;
         visibility: visible;
-        color: var(--secondary-color);
+        color: #ffffff;
         z-index: 1;
         width: 200px;
         height: 150px;
@@ -187,8 +191,68 @@
         position: absolute;
         width: 300px;
         height: 500px;
-        background-color: red;
+        background: rgb(21,92,224);
+        color: #ffffff;
+        background: linear-gradient(-90deg, rgba(21,92,224,1) 0%, rgba(17,77,187,1) 35%, rgba(12,54,131,1) 100%);
         z-index: 999;
+        border-top-right-radius: 10px;
+        border-bottom: 2px solid #000000;
+    }
+
+    .box-elements{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        padding-inline: 10px;
+        text-align: justify;
+    }
+
+    .box-elements h5 {
+        font-size: 24px;
+        text-align: start;
+        text-transform: uppercase;
+    }
+
+    .box-elements p {
+        font-size: 18px;
+    }
+    
+    .box-elements svg {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+    }
+
+    .info-icon {
+        height: 40px;
+        position: absolute;
+        top: calc(33% - 20px);
+        cursor: pointer;
+        filter: invert(18%) sepia(89%) saturate(3775%) hue-rotate(219deg) brightness(96%) contrast(84%);    }
+
+    .info-icon path {
+        filter: invert(18%) sepia(89%) saturate(3775%) hue-rotate(219deg) brightness(96%) contrast(84%);
+    }
+    
+    .right-icon {
+        right: -70px;
+    }
+    
+    .left-icon {
+        left: -70px;
+    }
+
+    #contact {
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        bottom: 50px;
+        margin: 0;
+        flex-direction: row;
+        border: none;
     }
 
 }
@@ -286,87 +350,6 @@
     
     .memphis-x.x3 {
         right: -30px;
-    }
-
-    /*
-
-    .dialog {
-        position: relative;
-        min-width: 1px;
-        height: 100%;
-    }
-
-    .box {
-        position: absolute;
-        background-color: var(--third-color);
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px black;
-        width: 75vw;
-        height: 400px;
-        z-index: 999;
-    }
-
-    .box svg {
-        position: absolute;
-        right: 10px;
-        top: 10px;
-        cursor: pointer;
-    }
-
-    .box.x0 {
-        display: none;
-        top: 125px;
-        right: -25px;
-    }
-
-    .box.x1 {
-        display: none;
-        top: 425px;
-        left: -25px;
-    }
-
-    .box.x2 {
-        display: none;
-        top: 725px;
-        right: -25px;
-    }
-
-    .box.x3 {
-        display: none;
-        top: 1275px;
-        left: -25px;
-    }
-
-    .box.x4 {
-        display: none;
-        top: 1550px;
-        right: -25px;
-    }
-
-    .box.x5 {
-        display: none;
-        top: 1850px;
-        left: -25px;
-    }
-
-    .title-box::after {
-        content: '';
-        border-top-left-radius: 40% 10%;
-        border-top-right-radius: 40% 10%;
-        position: absolute;
-        bottom: 0;
-        z-index: -1;
-        width: 100%;
-        background-color: var(--secondary-color);
-        height: 80%;
-    
-    } */
-
-    
-    /* CONTACT */
-
-    #contact {
-        display: none;
     }
 }
 

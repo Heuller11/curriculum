@@ -1,7 +1,11 @@
 #timeline {
     min-height: 2375px;
-    background-color: #0c3683;
+    background-color: #ECF2FD;
     position: relative;
+}
+
+#timeline h4 {
+    color: #000000 !important;
 }
 
 .timeline-elements {
@@ -21,13 +25,13 @@
     width: 200px;
     height: 320px;
     position: relative;
-    background-color: #ffffff;
+    background-color: #155ce0;
 }
 
 .line {
     width: 350px;
     height: 2px;
-    background-color: white;
+    background-color: var(--secondary-color);
     position: absolute;
     bottom: 0;
 }
@@ -44,7 +48,7 @@
     width: 50px;
     height: 50px;
     background-color: transparent;
-    border-left: 25px solid #ffffff;
+    border-left: 25px solid #155ce0;
     border-right: 25px solid transparent;
     border-bottom: 25px solid transparent;
     border-top: 25px solid transparent;
@@ -57,18 +61,7 @@
 }
 
 .info-icon {
-    height: 40px;
-    position: absolute;
-    top: calc(33% - 20px);
-    cursor: pointer;
-}
-
-.right-icon {
-    right: -70px;
-}
-
-.left-icon {
-    left: -70px;
+    display: none;
 }
 
 .right-flag {
@@ -83,7 +76,7 @@
 .content-block span {
     font-size: 100px;
     font-weight: 700;
-    color: var(--primary-color);
+    color: #ffffff;
 }
 
 .content-block span:first-child {
@@ -126,7 +119,7 @@
 
 .activity {
     width: 450px !important;
-    color: #ffffff;
+    color: #000000;
     padding-right: 30px;
     padding-top: 26px;
 }
@@ -168,7 +161,7 @@
 }
 
 .img-and-month span{
-    color: #ffffff;
+    color: #155ce0;
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;

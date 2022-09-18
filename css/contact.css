@@ -1,9 +1,10 @@
 #contact {
     width: 80px;
-    height: 350px;
-    background-color: #000000;
+    height: 300px;
+    background-color: var(--third-color);
     border-radius: 5px;
     margin: 50px;
+    right: 0;
     position: fixed;
     bottom: 0;
     padding: 10px;
@@ -11,6 +12,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    border: 2px solid #000000;
 }
 
 a {
@@ -18,5 +20,5 @@ a {
 }
 
 #contact a:hover svg path{
-    fill: #02f2a6;
+    fill: #ffffff;
 }
