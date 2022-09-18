@@ -11,8 +11,11 @@ $('nav .bi-x-circle').click(function(){
 })
 
 
-$('.flag svg').click(function(){
-    $(this).parents('div.wrap-accessories').find('.box').css('display', 'block');
+$('.info-icon').click(function(){
+    var index = $('.timeline-content .description').index($(this).parents('.description'));
+    var calculateTop = index < 2 ? (105 + index * 320).toString() + 'px' : (105 + 80 + index * 320).toString() + 'px';
+    $('.box-responsive').css({'display': 'block',
+                                'top': calculateTop});
     $('.overlay').css('display', 'block');
 })
 

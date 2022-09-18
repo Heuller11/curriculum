@@ -8,7 +8,6 @@ header {
 .first-block {
     background: rgb(21,92,224);
     background: linear-gradient(90deg, rgba(21,92,224,1) 0%, rgba(17,77,187,1) 35%, rgba(12,54,131,1) 100%); 
-    border-right: 2.5px solid white;
     height: 100%;  
     padding-block: 200px;
     padding-inline: 150px !important;
@@ -36,7 +35,6 @@ h2 p:last-child {
 .last-block {
     background: rgb(93,253,203);
     background: linear-gradient(270deg, rgba(93,253,203,1) 0%, rgba(2,242,166,1) 35%, rgba(2,202,139,1) 100%); 
-    border-left: 2.5px solid white;
     height: 100% !important;
 }
 

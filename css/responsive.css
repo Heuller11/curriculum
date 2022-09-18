@@ -3,6 +3,14 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    .first-block {
+        border-right: 2.5px solid white;
+    }
+
+    .last-block {
+        border-left: 2.5px solid white;
+    }
 }
 
 
@@ -118,8 +126,44 @@
 
 @media (max-width: 992px) { 
 
+    /* TIMELINE */
+
+    .description, .description .img-and-month {
+        width: 100% !important;
+        /* padding-inline: 6px !important; */
+    }
+
     .activity, .img-and-month {
-        display: none !important;
+        position: absolute;
+        visibility: hidden;
+        display: flex;
+    }
+
+    .activity {
+        width: 200px !important;
+        padding-left: 0 !important;
+        padding-top: 0;
+    }
+
+    .content-block {
+        border-bottom: 2px solid var(--primary-color);
+    }
+
+    .activity-title {
+        position: absolute;
+        visibility: visible;
+        color: var(--secondary-color);
+        z-index: 1;
+        width: 200px;
+        height: 150px;
+        top: 160px;
+        padding-inline: 5px;
+        text-align: center;
+        font-size: 22px !important;
+    }
+    
+    .activity p {
+        position: absolute;
     }
 
     .timeline-content {
@@ -129,6 +173,22 @@
 
     .line {
         display: none;
+    }
+
+    .content-block span {
+        font-size: 60px;
+    }
+
+    .timeline-elements {
+        position: relative;
+    }
+
+    .box-responsive {
+        position: absolute;
+        width: 300px;
+        height: 500px;
+        background-color: red;
+        z-index: 999;
     }
 
 }
