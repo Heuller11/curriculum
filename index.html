@@ -13,14 +13,19 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
 
-    <link rel="stylesheet" href="css/geral.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/timeline.css">
-    <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/footer.css">
+    
+
+    <link type="text/css" rel="stylesheet" href="css/geral.css">
+    <link type="text/css" rel="stylesheet" href="css/nav.css">
+    <link type="text/css" rel="stylesheet" href="css/header.css">
+    <link type="text/css" rel="stylesheet" href="css/about.css">
+    <link type="text/css" rel="stylesheet" href="css/timeline.css">
+    <link type="text/css" rel="stylesheet" href="css/projects.css">
+    <link type="text/css" rel="stylesheet" href="css/contact.css">
+    <link type="text/css" rel="stylesheet" href="css/footer.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
 
     <link rel="stylesheet" href="css/responsive.css">
 
@@ -82,6 +87,25 @@
             <img class="memphis memphis-x x3" src="imgs/memphis/memphis_x.png" alt="detalhe memphis xis">
         </div>
     </header>
+
+    <section id="projects">
+        <h4>Projetos</h4>
+        <span class="tecnologies">Tecnologias: ANGULAR, TAILWIND CSS, NODEJS, MONGODB, FLASK </span>
+        <div class="content">
+            <div id="lightgallery" class="gallery">
+                <a class="img-project" href="imgs/complete.png">
+                    <img src="imgs/authdesktop.png" alt="Autenticação" width="400px" height="auto">
+                    <span>Sistema de autenticação com token</span>
+                </a>
+                <a class="img-project" href="imgs/live_matchs_mobile.png">
+                    <img src="imgs/live_matchs.png" alt="Jogos ao vivo" width="400px" height="auto">
+                    <span>Consumo de API</span>
+                </a>
+            </div>
+        </div>
+        
+
+    </section>
    
     <section id="about">
         <h4>Sobre</h4>
@@ -298,4 +322,10 @@
    
 </body>
 <script src="js/index.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
+<script>
+    lightGallery(document.getElementById('lightgallery'),{
+
+    });
+</script>
 </html>
